@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.app-container {
+  background-color: #dee0e3;
+  padding: 20px;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+}
+.comment-image {
+  width: 200px;
+}
+.info {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+.submit-form {
+  display: flex;
+  flex-direction: column;
+}
+.name-input-field {
+  width: 200px;
+  outline: none;
+  color: #475569;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #cbd2d9;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.comment-input-field {
+  width: 200px;
+  outline: none;
+  color: #475569;
+  height: 150px;
+  background-color: transparent;
+  border: 2px solid #cbd2d9;
+  margin-bottom: 10px;
+}
+.submit-btn {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+.comments-count-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.comment-count {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: #0284c7;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+.comment-const-text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 50px;
+  }
+  .image-and-form-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .heading {
+    font-size: 70px;
+  }
+  .comment-image {
+    width: 50%;
+    order: 2;
+  }
+  .info {
+    font-size: 30px;
+  }
+  .submit-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .name-input-field {
+    width: 80%;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .comment-input-field {
+    width: 80%;
+    height: 150px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .submit-btn {
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  .comments-count-container {
+    margin-top: 40px;
+  }
+  .comment-count {
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+  }
+  .comment-const-text {
+    font-size: 30px;
+  }
+}
